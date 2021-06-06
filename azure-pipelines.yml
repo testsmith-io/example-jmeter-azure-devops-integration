@@ -1,13 +1,10 @@
 trigger:
 - master
 
-
 pool:
   vmImage: 'Ubuntu-latest'
 
 steps:
-
-
 - script: |
     wget -c https://apache.newfountain.nl//jmeter/binaries/apache-jmeter-5.4.1.tgz
     tar -xf apache-jmeter-5.4.1.tgz
